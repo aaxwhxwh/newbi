@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Transfer</title>
+</head>
+<body>
+<form method="post">
+    <input type="text" name="csrf_token" value="{{ csrf_token }}" hidden>
+    <label for="count">账户</label>
+    <input type="text" name="account">
+    <br>
+    <label for="money">金额</label>
+    <input type="text" name="money">
+    <br>
+    <input type="submit">
+</form>
+</body>
+</html>
